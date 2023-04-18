@@ -1,7 +1,7 @@
 #include <iostream>
-#include "ejercicio1.cpp"
-#include "ejercicio2.cpp"
-#include "ejercicio3.cpp"
+#include "Ejercicio1.cpp"
+#include "Gabriel.cpp"
+#include "iver_ejercicio3.cpp"
 
 using namespace std;
 
@@ -33,8 +33,8 @@ int main()
         case 3:
             ejercicio3();
             break;
-        case 4;
-            cout << "Saliendo..."
+        case 4:
+            cout << "Saliendo...";
             break;
         default:
         cout << "Opción Invalida. Ingrese un numero del 1 - 7..." << endl;

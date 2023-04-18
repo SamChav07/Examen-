@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+void ejercicio1();
 int main() 
 {
   int cant;

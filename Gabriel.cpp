@@ -3,7 +3,6 @@ using namespace std;
 
 void ejercicio2();
 
-int main() {
     const double PRECIO_SENCILLA = 50.00;
     const double PRECIO_DOBLE = 75.00;
     const double PRECIO_TRIPLE = 100.00;
@@ -30,5 +29,3 @@ int main() {
     cout << "Si paga con tarjeta, se le cargara un 5% adicional. El total a pagar es: C$" << costo_con_cargo << endl;
 
     return 0;
-    
-}

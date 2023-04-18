@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+void ejercicio3();
 int main() {
     int numLlamadas;
     double bono;
