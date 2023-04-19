@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void ejercicio2();
+void ejercicio2(){
+
 
     const double PRECIO_SENCILLA = 50.00;
     const double PRECIO_DOBLE = 75.00;
@@ -28,4 +29,4 @@ void ejercicio2();
     cout << "El costo total de las hamburguesas es: C$" << costo_total << endl;
     cout << "Si paga con tarjeta, se le cargara un 5% adicional. El total a pagar es: C$" << costo_con_cargo << endl;
 
-    return 0;
+}

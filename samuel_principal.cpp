@@ -8,10 +8,10 @@ using namespace std;
 void menu()
 {
     cout << "" << endl; 
-    cout << "1. Determinar la media de una lista indefinida de numeros positivos, terminados con numeros negativos#" << endl;
-    cout << "2. Dado el nombre de un mes y si el año es o no bisiesto, deducir el numero de dias del mes" << endl;
-    cout << "3. Determina la media de una lista de numeros + terminada con un numero no positivo despues del ultimo numero valido" << endl;
-    cout << "0. Salir..." << endl;
+    cout << "1. Determinar cuanto pagara una persona en un tienda. " << endl;
+    cout << "2. Determinar cuanto debe pagar una persona por N hamburguesas. " << endl;
+    cout << "3. Calcular el bono en un CAT" << endl;
+    cout << "4. Salir..." << endl;
 }
 
 int main()
@@ -19,7 +19,7 @@ int main()
     int opcion;
     do {
         menu();
-        cout << "Ingrese el ejercicio a ejecutar (1-7):\t" << endl;
+        cout << "Ingrese el ejercicio a ejecutar (1-3):\t" << endl;
         cin >> opcion;
 
         switch (opcion)
@@ -37,10 +37,10 @@ int main()
             cout << "Saliendo...";
             break;
         default:
-        cout << "Opción Invalida. Ingrese un numero del 1 - 7..." << endl;
+        cout << "Opción Invalida. Ingrese un numero del 1 - 4..." << endl;
         break;
         }
-    } while (opcion != 0);
+    } while (opcion != 4);
     
     return 0;
 }

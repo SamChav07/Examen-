@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-void ejercicio1();
-int main() 
+void ejercicio1() 
 {
   int cant;
   float precio, subtotal, descuento, impuesto, total;
@@ -29,5 +28,5 @@ int main()
   cout << "Impuesto: C$" << impuesto << endl;
   cout << "Total a pagar: C$" << total << endl;
 
-  return 0;
+
 }

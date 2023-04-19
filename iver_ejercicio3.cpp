@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-void ejercicio3();
-int main() {
+void ejercicio3(){
     int numLlamadas;
     double bono;
     
@@ -24,5 +23,5 @@ int main() {
         cout << "El empleado no cumple con las condiciones para recibir un bono." << endl;
     }
     
-    return 0;
+ 
 }
